@@ -2,18 +2,19 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Camera } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import hasiniImg from "@assets/WhatsApp_Image_2026-06-25_at_11.49.05_AM_1782368377451.jpeg";
 
 const questions = [
-  { q: "Who is her best friend? ❤️", a: "Everyone ❤️", options: ["Vandyy", "Muskan", "Hasini", "Everyone ❤️"], caption: "One heart, one gang, endless memories ❤️" },
-  { q: "What is her favorite thing to do with the gang? 🍔", a: "Eating together 🍔", options: ["Taking photos 📸", "Eating together 🍔", "Roasting friends 😂", "Shopping 🛍️"], caption: "Food tastes better when the gang is together 😋❤️" },
-  { q: "Who usually starts the chaos in the group? 😆", a: "Hasini", options: ["Vandyy", "Muskan", "Joshitha", "Hasini"], caption: "The certified troublemaker 😂" },
-  { q: "Who makes her laugh the most? 😂", a: "Muskan", options: ["Hasini", "Muskan", "Lasya", "Purnima"], caption: "Unlimited laughter guaranteed 🤣" },
-  { q: "Who takes the most photos with her? 📸", a: "Dhatri", options: ["Joshitha", "Lekhya", "Dhatri", "Hasini"], caption: "Camera roll partners forever 📸" },
-  { q: "Who knows most of her secrets? 🤫", a: "Vandyy", options: ["Vandyy", "Dhatri", "Jeevana", "Lasya"], caption: "Keeper of secrets ❤️" },
-  { q: "Who is most likely to call her first on her birthday? 🎂", a: "Muskan", options: ["Vandyy", "Muskan", "Dhatri", "Joshitha"], caption: "The first birthday wish is always special ☎️" },
-  { q: "Who is her favorite selfie partner? 🤳", a: "Hasini", options: ["Hasini", "Lekhya", "Muskan", "Lasya"], caption: "Selfie Queens Forever 👑" },
-  { q: "Who would she choose for an all-day outing? 🌈", a: "Entire Gang ❤️", options: ["Vandyy", "Dhatri", "Muskan", "Entire Gang ❤️"], caption: "Every adventure is better together ❤️" },
-  { q: "Who is her partner-in-crime? 😈", a: "Joshitha", options: ["Vandyy", "Joshitha", "Hasini", "Jeevana"], caption: "Double Trouble Activated 😆🔥" },
+  { q: "Who is her best friend? ❤️", a: "Everyone ❤️", options: ["Vandyy", "Muskan", "Hasini", "Everyone ❤️"], caption: "One heart, one gang, endless memories ❤️", photo: null as string | null },
+  { q: "What is her favorite thing to do with the gang? 🍔", a: "Eating together 🍔", options: ["Taking photos 📸", "Eating together 🍔", "Roasting friends 😂", "Shopping 🛍️"], caption: "Food tastes better when the gang is together 😋❤️", photo: null },
+  { q: "Who usually starts the chaos in the group? 😆", a: "Hasini", options: ["Vandyy", "Muskan", "Joshitha", "Hasini"], caption: "The certified troublemaker 😂", photo: hasiniImg },
+  { q: "Who makes her laugh the most? 😂", a: "Muskan", options: ["Hasini", "Muskan", "Lasya", "Purnima"], caption: "Unlimited laughter guaranteed 🤣", photo: null },
+  { q: "Who takes the most photos with her? 📸", a: "Dhatri", options: ["Joshitha", "Lekhya", "Dhatri", "Hasini"], caption: "Camera roll partners forever 📸", photo: null },
+  { q: "Who knows most of her secrets? 🤫", a: "Vandyy", options: ["Vandyy", "Dhatri", "Jeevana", "Lasya"], caption: "Keeper of secrets ❤️", photo: null },
+  { q: "Who is most likely to call her first on her birthday? 🎂", a: "Muskan", options: ["Vandyy", "Muskan", "Dhatri", "Joshitha"], caption: "The first birthday wish is always special ☎️", photo: null },
+  { q: "Who is her favorite selfie partner? 🤳", a: "Hasini", options: ["Hasini", "Lekhya", "Muskan", "Lasya"], caption: "Selfie Queens Forever 👑", photo: null },
+  { q: "Who would she choose for an all-day outing? 🌈", a: "Entire Gang ❤️", options: ["Vandyy", "Dhatri", "Muskan", "Entire Gang ❤️"], caption: "Every adventure is better together ❤️", photo: null },
+  { q: "Who is her partner-in-crime? 😈", a: "Joshitha", options: ["Vandyy", "Joshitha", "Hasini", "Jeevana"], caption: "Double Trouble Activated 😆🔥", photo: null },
 ];
 
 export default function FriendshipQuiz() {
@@ -122,12 +123,31 @@ export default function FriendshipQuiz() {
                   className="mt-8 flex flex-col items-center"
                 >
                   <p className="text-green-400 font-bold text-lg mb-6 drop-shadow-md">🎉 Correct Answer!</p>
-                  
-                  <div className="w-full max-w-sm rounded-xl border-2 border-dashed border-primary/40 p-4 bg-black/20 mb-6 flex flex-col items-center justify-center">
-                    <Camera className="w-10 h-10 text-primary/60 mb-3" />
-                    <p className="text-center font-serif italic text-foreground/80">
-                      {questions[currentQ].caption}
-                    </p>
+
+                  <div className="w-full max-w-sm rounded-xl overflow-hidden mb-6"
+                    style={{ border: "1px solid rgba(255,100,200,0.35)" }}
+                  >
+                    {questions[currentQ].photo ? (
+                      <div className="relative">
+                        <img
+                          src={questions[currentQ].photo as string}
+                          alt="Answer reveal"
+                          className="w-full object-cover"
+                          style={{ maxHeight: "260px" }}
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                        <p className="absolute bottom-3 left-0 w-full text-center font-serif italic text-white drop-shadow-lg px-4">
+                          {questions[currentQ].caption}
+                        </p>
+                      </div>
+                    ) : (
+                      <div className="p-4 bg-black/20 flex flex-col items-center justify-center py-8">
+                        <Camera className="w-10 h-10 text-primary/60 mb-3" />
+                        <p className="text-center font-serif italic text-foreground/80">
+                          {questions[currentQ].caption}
+                        </p>
+                      </div>
+                    )}
                   </div>
 
                   {!isCompleted ? (
