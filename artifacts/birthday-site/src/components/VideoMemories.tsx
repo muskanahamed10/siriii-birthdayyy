@@ -5,12 +5,16 @@ import vid1 from "@assets/WhatsApp_Video_2026-06-24_at_9.43.27_PM_1782365125453.
 import vid2 from "@assets/WhatsApp_Video_2026-06-24_at_9.43.27_PM_(2)_1782365493553.mp4";
 import vid3 from "@assets/WhatsApp_Video_2026-06-24_at_9.43.27_PM_(1)_1782365565314.mp4";
 import vid4 from "@assets/WhatsApp_Video_2026-06-24_at_9.43.27_PM_(2)_1782365576668.mp4";
+import vid5 from "@assets/WhatsApp_Video_2026-06-24_at_9.43.28_PM_1782366931023.mp4";
+import vid6 from "@assets/WhatsApp_Video_2026-06-24_at_9.43.29_PM_1782366934191.mp4";
 
 const videos = [
   { id: "v1", title: "Funny Videos 😂", src: vid1 },
   { id: "v2", title: "Birthday Clips 🎂", src: vid2 },
   { id: "v3", title: "Gang Memories 👯", src: vid3 },
   { id: "v4", title: "Short Reels 🎬", src: vid4 },
+  { id: "v5", title: "Special Moments ✨", src: vid5 },
+  { id: "v6", title: "Our Story 💖", src: vid6 },
 ];
 
 function VideoCard({ vid, index }: { vid: typeof videos[0]; index: number }) {
@@ -34,16 +38,13 @@ function VideoCard({ vid, index }: { vid: typeof videos[0]; index: number }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
       transition={{ delay: index * 0.1, duration: 0.5 }}
-      className="rounded-[20px] p-4 flex flex-col group cursor-pointer"
+      className="rounded-[20px] p-4 flex flex-col group"
       style={{
         background: "rgba(255,255,255,0.05)",
         backdropFilter: "blur(12px)",
         border: "1px solid rgba(255,100,200,0.2)"
       }}
-      whileHover={{
-        scale: 1.02,
-        boxShadow: "0 0 24px rgba(255,100,200,0.25)"
-      }}
+      whileHover={{ scale: 1.02, boxShadow: "0 0 24px rgba(255,100,200,0.25)" }}
       data-testid={`card-video-${vid.id}`}
     >
       <div className="relative w-full aspect-video rounded-xl overflow-hidden mb-4 bg-black">
@@ -56,8 +57,6 @@ function VideoCard({ vid, index }: { vid: typeof videos[0]; index: number }) {
           onEnded={() => setPlaying(false)}
           data-testid={`video-${vid.id}`}
         />
-
-        {/* Play / Pause overlay */}
         <button
           onClick={toggle}
           className="absolute inset-0 flex items-center justify-center group/btn"
@@ -77,7 +76,6 @@ function VideoCard({ vid, index }: { vid: typeof videos[0]; index: number }) {
           </motion.div>
         </button>
       </div>
-
       <h3 className="font-serif text-xl font-medium text-foreground/90 text-center">
         {vid.title}
       </h3>
@@ -98,7 +96,7 @@ export default function VideoMemories() {
           Video Memories 🎥
         </motion.h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {videos.map((vid, index) => (
             <VideoCard key={vid.id} vid={vid} index={index} />
           ))}
