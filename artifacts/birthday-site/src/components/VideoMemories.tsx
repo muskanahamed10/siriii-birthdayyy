@@ -5,11 +5,15 @@ import vid1 from "@assets/WhatsApp_Video_2026-06-24_at_9.43.27_PM_1782365125453.
 import vid2 from "@assets/WhatsApp_Video_2026-06-24_at_9.43.27_PM_(2)_1782365493553.mp4";
 import vid3 from "@assets/WhatsApp_Video_2026-06-24_at_9.43.27_PM_(1)_1782365565314.mp4";
 import vid4 from "@assets/WhatsApp_Video_2026-06-24_at_9.43.27_PM_(2)_1782365576668.mp4";
+import vid5 from "@assets/WhatsApp_Video_2026-06-24_at_9.43.28_PM_1782368810411.mp4";
+import vid6 from "@assets/WhatsApp_Video_2026-06-24_at_9.43.29_PM_1782368813253.mp4";
 const videos = [
   { id: "v1", title: "Funny Videos 😂", src: vid1 },
   { id: "v2", title: "Birthday Clips 🎂", src: vid2 },
   { id: "v3", title: "Gang Memories 👯", src: vid3 },
   { id: "v4", title: "Short Reels 🎬", src: vid4 },
+  { id: "v5", title: "Funny Videos 😂", src: vid5 },
+  { id: "v6", title: "Funny Videos 😂", src: vid6 },
 ];
 
 function VideoCard({ vid, index }: { vid: typeof videos[0]; index: number }) {
@@ -91,7 +95,7 @@ export default function VideoMemories() {
           Video Memories 🎥
         </motion.h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {videos.map((vid, index) => (
             <VideoCard key={vid.id} vid={vid} index={index} />
           ))}
