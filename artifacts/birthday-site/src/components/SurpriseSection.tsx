@@ -6,7 +6,7 @@ import { X } from "lucide-react";
 export default function SurpriseSection() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const friends = ["Vandyy", "Muskan", "Hasini", "Jeevana", "Dhatri", "Joshitha", "Lekhya", "Purnima", "Lasya"];
+  const friends = ["Vandyy", "Muskan", "Hasini", "Jeevana", "Dhatri", "Joshitha", "Lekhya", "Purnima", "Lasya", "Varshitha"];
 
   return (
     <section id="surprise" className="py-32 px-4 z-10 relative overflow-hidden">
