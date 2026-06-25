@@ -3,17 +3,21 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Camera } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import hasiniImg from "@assets/WhatsApp_Image_2026-06-25_at_11.49.05_AM_1782368377451.jpeg";
+import selfieImg from "@assets/WhatsApp_Image_2026-06-25_at_12.10.19_PM_1782370368460.jpeg";
+import gangOutingImg from "@assets/WhatsApp_Image_2026-06-25_at_10.42.29_AM_1782370371355.jpeg";
+import photoBuddyImg from "@assets/WhatsApp_Image_2026-06-25_at_11.49.12_AM_(1)_1782370415142.jpeg";
+import eatingImg from "@assets/WhatsApp_Image_2026-06-25_at_11.36.20_AM_(1)_1782370515512.jpeg";
 
 const questions = [
   { q: "Who is her best friend? ❤️", a: "Everyone ❤️", options: ["Vandyy", "Muskan", "Hasini", "Everyone ❤️"], caption: "One heart, one gang, endless memories ❤️", photo: null as string | null },
-  { q: "What is her favorite thing to do with the gang? 🍔", a: "Eating together 🍔", options: ["Taking photos 📸", "Eating together 🍔", "Roasting friends 😂", "Shopping 🛍️"], caption: "Food tastes better when the gang is together 😋❤️", photo: null },
+  { q: "What is her favorite thing to do with the gang? 🍔", a: "Eating together 🍔", options: ["Taking photos 📸", "Eating together 🍔", "Roasting friends 😂", "Shopping 🛍️"], caption: "Food tastes better when the gang is together 😋❤️", photo: eatingImg },
   { q: "Who usually starts the chaos in the group? 😆", a: "Hasini", options: ["Vandyy", "Muskan", "Joshitha", "Hasini"], caption: "The certified troublemaker 😂", photo: hasiniImg },
   { q: "Who makes her laugh the most? 😂", a: "Muskan", options: ["Hasini", "Muskan", "Lasya", "Purnima"], caption: "Unlimited laughter guaranteed 🤣", photo: null },
-  { q: "Who takes the most photos with her? 📸", a: "Dhatri", options: ["Joshitha", "Lekhya", "Dhatri", "Hasini"], caption: "Camera roll partners forever 📸", photo: null },
+  { q: "Who takes the most photos with her? 📸", a: "Dhatri", options: ["Joshitha", "Lekhya", "Dhatri", "Hasini"], caption: "Camera roll partners forever 📸", photo: photoBuddyImg },
   { q: "Who knows most of her secrets? 🤫", a: "Vandyy", options: ["Vandyy", "Dhatri", "Jeevana", "Lasya"], caption: "Keeper of secrets ❤️", photo: null },
   { q: "Who is most likely to call her first on her birthday? 🎂", a: "Muskan", options: ["Vandyy", "Muskan", "Dhatri", "Joshitha"], caption: "The first birthday wish is always special ☎️", photo: null },
-  { q: "Who is her favorite selfie partner? 🤳", a: "Hasini", options: ["Hasini", "Lekhya", "Muskan", "Lasya"], caption: "Selfie Queens Forever 👑", photo: null },
-  { q: "Who would she choose for an all-day outing? 🌈", a: "Entire Gang ❤️", options: ["Vandyy", "Dhatri", "Muskan", "Entire Gang ❤️"], caption: "Every adventure is better together ❤️", photo: null },
+  { q: "Who is her favorite selfie partner? 🤳", a: "Hasini", options: ["Hasini", "Lekhya", "Muskan", "Lasya"], caption: "Selfie Queens Forever 👑", photo: selfieImg },
+  { q: "Who would she choose for an all-day outing? 🌈", a: "Entire Gang ❤️", options: ["Vandyy", "Dhatri", "Muskan", "Entire Gang ❤️"], caption: "Every adventure is better together ❤️", photo: gangOutingImg },
   { q: "Who is her partner-in-crime? 😈", a: "Joshitha", options: ["Vandyy", "Joshitha", "Hasini", "Jeevana"], caption: "Double Trouble Activated 😆🔥", photo: null },
 ];
 
