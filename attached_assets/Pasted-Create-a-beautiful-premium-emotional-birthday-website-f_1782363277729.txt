@@ -1,0 +1,442 @@
+Create a beautiful, premium, emotional birthday website for my friend from our entire gang.
+
+## Theme & Design
+
+* Pink and purple birthday theme
+* Glassmorphism cards
+* Floating hearts ❤️
+* Floating balloons 🎈
+* Confetti animations 🎉
+* Smooth scrolling
+* Modern animations
+* Mobile-friendly and responsive
+* Background music support (I will add the song later)
+
+---
+
+# HERO SECTION
+
+Use a full-screen background image.
+
+I will add her main photo later.
+
+Display:
+
+🎂 HAPPY BIRTHDAY 🎂
+
+Subtitle:
+
+"To the most amazing friend from your crazy gang ❤️"
+
+Display a beautiful animated button:
+
+✨ Start The Journey ✨
+
+Add floating hearts and confetti in the background.
+
+---
+
+# WELCOME MESSAGE
+
+Display:
+
+Dear Birthday Girl ❤️
+
+Today is all about celebrating you, the memories we've made together, the laughter we've shared, and the friendship that makes our gang special.
+
+You are one of the most important people in our lives and we hope this little surprise reminds you how much you mean to all of us.
+
+Happy Birthday and thank you for being you. 🎂✨
+
+---
+
+# TIMELINE OF MEMORIES
+
+Create a beautiful horizontal timeline slider.
+
+I will upload all photos later.
+
+## Slide 1
+
+Childhood Photo
+
+Caption:
+"The beginning of a beautiful story 🌟"
+
+---
+
+## Slide 2
+
+School Days Photo
+
+Caption:
+"Making memories and collecting dreams 📚"
+
+---
+
+## Slide 3
+
+Teenage Years Photo
+
+Caption:
+"Growing stronger, brighter and more beautiful every day 💖"
+
+---
+
+## Slide 4
+
+Recent Photo
+
+Caption:
+"The wonderful person we all love today ❤️"
+
+Use smooth transitions between slides.
+
+---
+
+# MEMORY GALLERY
+
+Create a modern responsive gallery.
+
+I will upload:
+
+* Childhood photos
+* School photos
+* College photos
+* Group photos
+* Funny photos
+* Celebration photos
+
+When any image is clicked:
+Open it in a beautiful fullscreen lightbox.
+
+---
+
+# MESSAGES FROM FRIENDS
+
+Create beautiful animated cards.
+
+### Vandyy
+
+Happy Birthday! Thank you for all the laughs, memories, and friendship. Stay happy, stay strong, and keep shining always. ❤️
+
+### Muskan
+
+Happy Birthday! Life is more fun because of you. Wishing you happiness, success, and countless unforgettable memories. 🎉
+
+### Hasini
+
+Happy Birthday! May your smile always stay bright and beautiful. Thank you for being such an amazing friend. 💕
+
+### Jeevana
+
+Happy Birthday! Wishing you a year full of happiness, adventures, success, and wonderful surprises. 🎂
+
+### Dhatri
+
+Happy Birthday! Thank you for always being there and making every moment special. 🌸
+
+### Joshitha
+
+Happy Birthday! Keep smiling, keep shining, and keep being your wonderful self. 💖
+
+### Lekhya
+
+Happy Birthday! You deserve all the happiness, love, and success in the world. 🎁
+
+### Purnima
+
+Happy Birthday! Thank you for all the memories, laughter, and friendship. 🎊
+
+### Lasya
+
+Happy Birthday! Wishing you endless joy, love, happiness, and success. ✨
+
+Cards should flip when clicked.
+
+---
+
+# FRIENDSHIP QUIZ
+
+Create an interactive quiz.
+
+For Correct Answers:
+Show popup:
+
+🎉 Correct Answer!
+
+Reveal the corresponding photo that I will upload later.
+
+For Wrong Answers:
+Show popup:
+
+❌ Wrong Answer! Try Again
+
+---
+
+## Question 1
+
+Who is her best friend? ❤️
+
+Options:
+
+* Vandyy
+* Muskan
+* Hasini
+* Everyone ❤️
+
+Correct Answer:
+Everyone ❤️
+
+Show a gang photo.
+
+Caption:
+"One heart, one gang, endless memories ❤️"
+
+---
+
+## Question 2
+
+What is her favorite thing to do with the gang? 🍔
+
+Options:
+
+* Taking photos 📸
+* Eating together 🍔
+* Roasting friends 😂
+* Shopping 🛍️
+
+Correct Answer:
+Eating together 🍔
+
+Show her eating photo.
+
+Caption:
+"Food tastes better when the gang is together 😋❤️"
+
+---
+
+## Question 3
+
+Who usually starts the chaos in the group? 😆
+
+Options:
+
+* Vandyy
+* Muskan
+* Joshitha
+* Hasini
+
+Correct Answer:
+Hasini
+
+Caption:
+"The certified troublemaker 😂"
+
+---
+
+## Question 4
+
+Who makes her laugh the most? 😂
+
+Options:
+
+* Hasini
+* Muskan
+* Lasya
+* Purnima
+
+Correct Answer:
+Muskan
+
+Caption:
+"Unlimited laughter guaranteed 🤣"
+
+---
+
+## Question 5
+
+Who takes the most photos with her? 📸
+
+Options:
+
+* Joshitha
+* Lekhya
+* Dhatri
+* Hasini
+
+Correct Answer:
+Dhatri
+
+Caption:
+"Camera roll partners forever 📸"
+
+---
+
+## Question 6
+
+Who knows most of her secrets? 🤫
+
+Options:
+
+* Vandyy
+* Dhatri
+* Jeevana
+* Lasya
+
+Correct Answer:
+Vandyy
+
+Caption:
+"Keeper of secrets ❤️"
+
+---
+
+## Question 7
+
+Who is most likely to call her first on her birthday? 🎂
+
+Options:
+
+* Vandyy
+* Muskan
+* Dhatri
+* Joshitha
+
+Correct Answer:
+Muskan
+
+Caption:
+"The first birthday wish is always special ☎️"
+
+---
+
+## Question 8
+
+Who is her favorite selfie partner? 🤳
+
+Options:
+
+* Hasini
+* Lekhya
+* Muskan
+* Lasya
+
+Correct Answer:
+Hasini
+
+Caption:
+"Selfie Queens Forever 👑"
+
+---
+
+## Question 9
+
+Who would she choose for an all-day outing? 🌈
+
+Options:
+
+* Vandyy
+* Dhatri
+* Muskan
+* Entire Gang ❤️
+
+Correct Answer:
+Entire Gang ❤️
+
+Caption:
+"Every adventure is better together ❤️"
+
+---
+
+## Question 10
+
+Who is her partner-in-crime? 😈
+
+Options:
+
+* Vandyy
+* Joshitha
+* Hasini
+* Jeevana
+
+Correct Answer:
+Joshitha
+
+Caption:
+"Double Trouble Activated 😆🔥"
+
+---
+
+# VIDEO MEMORIES
+
+Create a beautiful video gallery section.
+
+I will upload:
+
+* Funny videos
+* Birthday clips
+* Gang memories
+* Short reels
+
+Display videos inside modern cards with play buttons.
+
+---
+
+# OUR FAVORITE MOMENTS TOGETHER ❤️
+
+Create a beautiful memory section.
+
+I will upload photos later.
+
+Memory 1:
+"One of our happiest days together ❤️"
+
+Memory 2:
+"A moment we'll never forget ✨"
+
+Memory 3:
+"Endless laughter and memories 😂"
+
+Memory 4:
+"The gang that stays together ❤️"
+
+---
+
+# FINAL SURPRISE SECTION
+
+Create a large glowing button:
+
+🎁 Open Your Birthday Surprise 🎁
+
+When clicked:
+
+* Full screen confetti animation
+* Fireworks animation
+* Floating hearts
+* Birthday music
+* Beautiful transition effect
+
+Display:
+
+Dear Friend ❤️
+
+Thank you for being such an important part of our lives.
+
+Every memory with you is special.
+Every laugh is unforgettable.
+Every moment spent together becomes a cherished memory.
+
+No matter where life takes us, you'll always be a part of our gang and our hearts.
+
+Happy Birthday ❤️
+
+Love,
+
+Vandyy, Muskan, Hasini, Jeevana, Dhatri, Joshitha, Lekhya, Purnima & Lasya
+
+End with:
+
+✨ Forever Friends. Forever Memories. Forever Us. ❤️ ✨
+
+Make the website feel like a premium emotional birthday gift and include placeholders everywhere so I can easily add all images and videos myself.
