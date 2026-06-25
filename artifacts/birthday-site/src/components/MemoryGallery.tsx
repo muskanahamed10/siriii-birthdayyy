@@ -10,6 +10,7 @@ import childhood1 from "@assets/WhatsApp_Image_2026-06-25_at_11.36.18_AM_1782368
 import school1 from "@assets/WhatsApp_Image_2026-06-25_at_11.36.20_AM_1782368533864.jpeg";
 import college1 from "@assets/WhatsApp_Image_2026-06-25_at_11.54.30_AM_1782368712765.jpeg";
 import celebration1 from "@assets/WhatsApp_Image_2026-06-25_at_11.54.30_AM_(1)_1782368710734.jpeg";
+import funny1 from "@assets/WhatsApp_Image_2026-06-25_at_12.02.35_PM_1782369407103.jpeg";
 
 const gangPhotos = [
   { src: gang1, caption: "Temple visit with the gang 🙏" },
@@ -23,7 +24,7 @@ const galleryCategories = [
   { id: "school", title: "School Photos 🎒", photos: [{ src: school1, caption: "Good food, good days 😋" }] },
   { id: "college", title: "College Photos 🎓", photos: [{ src: college1, caption: "College days — the best chapter yet 🎓" }] },
   { id: "group", title: "Group Photos 👯", photos: gangPhotos },
-  { id: "funny", title: "Funny Photos 😂", photos: [] },
+  { id: "funny", title: "Funny Photos 😂", photos: [{ src: funny1, caption: "When the filter hits different 😂👀" }] },
   { id: "celebration", title: "Celebration Photos 🎊", photos: [{ src: celebration1, caption: "Celebrating her with cake and love 🎂❤️" }] },
 ];
 
