@@ -6,6 +6,10 @@ import gang1 from "@assets/WhatsApp_Image_2026-06-25_at_9.56.26_AM_1782366331488
 import gang2 from "@assets/WhatsApp_Image_2026-06-25_at_10.06.03_AM_1782366355050.jpeg";
 import gang3 from "@assets/WhatsApp_Image_2026-06-25_at_10.06.05_AM_1782366383188.jpeg";
 import gang4 from "@assets/WhatsApp_Image_2026-06-25_at_10.09.05_AM_1782366392950.jpeg";
+import childhood1 from "@assets/WhatsApp_Image_2026-06-25_at_11.36.18_AM_1782368532046.jpeg";
+import school1 from "@assets/WhatsApp_Image_2026-06-25_at_11.36.20_AM_1782368533864.jpeg";
+import college1 from "@assets/WhatsApp_Image_2026-06-25_at_11.54.30_AM_1782368712765.jpeg";
+import celebration1 from "@assets/WhatsApp_Image_2026-06-25_at_11.54.30_AM_(1)_1782368710734.jpeg";
 
 const gangPhotos = [
   { src: gang1, caption: "Temple visit with the gang 🙏" },
@@ -15,12 +19,12 @@ const gangPhotos = [
 ];
 
 const galleryCategories = [
-  { id: "childhood", title: "Childhood Photos 👶", photos: [] as typeof gangPhotos },
-  { id: "school", title: "School Photos 🎒", photos: [] },
-  { id: "college", title: "College Photos 🎓", photos: [] },
+  { id: "childhood", title: "Childhood Photos 👶", photos: [{ src: childhood1, caption: "Little star at St. John's School 🌟" }] as typeof gangPhotos },
+  { id: "school", title: "School Photos 🎒", photos: [{ src: school1, caption: "Good food, good days 😋" }] },
+  { id: "college", title: "College Photos 🎓", photos: [{ src: college1, caption: "College days — the best chapter yet 🎓" }] },
   { id: "group", title: "Group Photos 👯", photos: gangPhotos },
   { id: "funny", title: "Funny Photos 😂", photos: [] },
-  { id: "celebration", title: "Celebration Photos 🎊", photos: [] },
+  { id: "celebration", title: "Celebration Photos 🎊", photos: [{ src: celebration1, caption: "Celebrating her with cake and love 🎂❤️" }] },
 ];
 
 type Category = typeof galleryCategories[0];
